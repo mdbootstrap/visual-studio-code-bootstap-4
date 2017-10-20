@@ -1,0 +1,865 @@
+{
+    /*
+    	// Place your snippets for HTML here. Each snippet is defined under a snippet name and has a prefix, body and 
+    	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+    	// same ids are connected.
+    	// Example:
+    	"Print to console": {
+    		"prefix": "log",
+    		"body": [
+    			"console.log('$1');",
+    			"$2"
+    		],
+    		"description": "Log output to console"
+    	}
+    */
+    /*******************
+    MDB jQuery Snippets
+    ********************/
+    //Template
+    "": {
+        "prefix": "ml",
+        "body": [],
+        "description": ""
+    },
+    /*Core & layout*/
+    "mdb-starter": {
+        "prefix": "mdb-starter",
+        "body": [
+            "<!DOCTYPE html>"
+            "<html lang=\"en\">"
+
+            "<head>"
+            "<meta charset=\"utf-8\">"
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+            "<meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">"
+            "<title>Material Design Bootstrap</title>"
+            "<!-- Font Awesome -->"
+            "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\">"
+            "<!-- Bootstrap core CSS -->"
+            "<link href=\"css/bootstrap.css\" rel=\"stylesheet\">"
+            "<!-- Material Design Bootstrap -->"
+            "<link href=\"css/mdb.css\" rel=\"stylesheet\">"
+            "<!-- Your custom styles (optional) -->"
+            "<link href=\"css/style.css\" rel=\"stylesheet\">"
+            "</head>"
+
+            "<body>"
+            ""
+            ""
+            ""
+            "<!-- SCRIPTS -->"
+            "<!-- JQuery -->"
+            "<script type=\"text/javascript\" src=\"js/jquery-3.1.1.js\"></script>"
+            "<!-- Bootstrap tooltips -->"
+            "<script type=\"text/javascript\" src=\"js/tether.js\"></script>"
+            "<!-- Bootstrap core JavaScript -->"
+            "<script type=\"text/javascript\" src=\"js/bootstrap.js\"></script>"
+            "<!-- MDB core JavaScript -->"
+            "<script type=\"text/javascript\" src=\"js/mdb.js\"></script>"
+            "<!--Custom scripts-->"
+            "<script>"
+            "</script>"
+
+            "</body>"
+
+            "</html>"
+        ],
+        "description": "MDB Starter"
+    },
+    "core-lay": {
+        "prefix": "ml-core-lay",
+        "body": [
+            "<!--Main Navigation-->"
+            "<header>"
+            ""
+            ""
+            ""
+            "</header>"
+            "<!--Main Navigation-->"
+            ""
+            "<!--Main layout-->"
+            "<main>"
+            "<div class=\"container-fluid\">"
+            ""
+            ""
+            ""
+            "</div>"
+            "</main>"
+            "<!--Main layout-->"
+            ""
+            "<!--Footer-->"
+            "<footer>"
+            ""
+            ""
+            ""
+            "</footer>"
+            "<!--Footer-->"
+        ],
+        "description": "Core Layout"
+    },
+    "empty section": {
+        "prefix": "ml-section",
+        "body": [
+            "<!--Section: Name-->"
+            "<section>"
+            ""
+            ""
+            ""
+            "</section>"
+            "<!--Section: Name-->"
+        ],
+        "description": "Empty section"
+    },
+    /*Grid*/
+    "grid-2": {
+        "prefix": "mg-2",
+        "body": [
+            "<!--Grid row-->"
+            "<div class=\"row\">"
+            ""
+            "<!--Grid column-->"
+            "<div class=\"col-md-6 mb-4\">"
+            ""
+            ""
+            ""
+            "</div>"
+            "<!--Grid column-->"
+            ""
+            "<!--Grid column-->"
+            "<div class=\"col-md-6 mb-4\">"
+            ""
+            ""
+            ""
+            "</div>"
+            "<!--Grid column-->"
+            ""
+            "</div>"
+            "<!--Grid row-->"
+        ],
+        "description": "2 columns"
+    },
+    "grid-3": {
+        "prefix": "mg-3",
+        "body": [
+            "<!--Grid row-->"
+            "<div class=\"row\">"
+            ""
+            "<!--Grid column-->"
+            "<div class=\"col-lg-4 col-md-12 mb-4\">"
+            ""
+            ""
+            ""
+            "</div>"
+            "<!--Grid column-->"
+            ""
+            "<!--Grid column-->"
+            "<div class=\"col-lg-4 col-md-6 mb-4\">"
+            ""
+            ""
+            ""
+            "</div>"
+            "<!--Grid column-->"
+            ""
+            "<!--Grid column-->"
+            "<div class=\"col-lg-4 col-md-6 mb-4\">"
+            ""
+            ""
+            ""
+            "</div>"
+            "<!--Grid column-->"
+            ""
+            "</div>"
+            "<!--Grid row-->"
+        ],
+        "description": "3 columns"
+    },
+    "media object": {
+        "prefix": "ml-media-object",
+        "body": [
+            "<div class=\"media\">"
+            "<img class=\"d-flex mr-3\" src=\"https://placehold.it/64x64\" alt=\"Generic placeholder image\">"
+            "<div class=\"media-body\">"
+                "<h5 class=\"mt-0\">Media heading</h5>"
+                "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+            "</div>"
+        "</div>"
+        ],
+        "description": "media object"
+    },
+    /*Utilities*/
+    //Template
+    "": {
+        "prefix": "mu-",
+        "body": [],
+        "description": ""
+    },
+    "target blank": {
+        "prefix": "mu-taget-blank",
+        "body": [
+            "target=\"_blank\""
+        ],
+        "description": "target blank"
+    },
+    "width": {
+        "prefix": "mu-wdth",
+        "body": [
+            "style=\"width: 22rem;\""
+        ],
+        "description": "Width"
+    },
+    "flex justify": {
+        "prefix": "mu-flex-justify-center",
+        "body": [
+            "d-flex justify-content-center"
+        ],
+        "description": ""
+    },
+    /*Typography*/
+    "": {
+        "prefix": "mt-",
+        "body": [],
+        "description": ""
+    },
+    "h1 heading": {
+        "prefix": "mt-h1",
+        "body": [
+            "<h1 class=\"my-5 h1\">Heading</h1>"
+        ],
+        "description": "h1 heading"
+    },
+    "h2 heading": {
+        "prefix": "mt-h2",
+        "body": [
+            "<h1 class=\"my-5 h2\">Heading</h1>"
+        ],
+        "description": "h1 heading"
+    },
+    "h4 heading": {
+        "prefix": "mt-h4",
+        "body": [
+            "<h1 class=\"my-5 h4\">Heading</h1>"
+        ],
+        "description": "h1 heading"
+    },
+    "h5 heading": {
+        "prefix": "mt-h5",
+        "body": [
+            "<h1 class=\"my-2 h5\">Heading</h1>"
+        ],
+        "description": "h1 heading"
+    },
+    "notification": {
+        "prefix": "mt-notification",
+        "body": [
+            "<blockquote class=\"blockquote bq-primary\">"
+            "<p class=\"bq-title\">Title</p>"
+            "<p>Text</p>"
+            "</blockquote>"
+        ],
+        "description": "Text notification"
+    },
+    "unordered list": {
+        "prefix": "mt-unordered-list",
+        "body": [
+            "<ul>"
+        "<li>"
+        "<p>Lorem</p>"
+        "</li>"
+        "<li>"
+        "<p>Ipsum</p>"
+        "</li>"
+        "<li>"
+        "<p>Dolor</p>"
+        "</li>"
+        "</ul>"
+        ],
+        "description": "unordered list"
+    },
+    "ordered list": {
+        "prefix": "mt-ordered-list",
+        "body": [
+            "<ol>"
+        "<li>"
+        "<p>Lorem</p>"
+        "</li>"
+        "<li>"
+        "<p>Ipsum</p>"
+        "</li>"
+        "<li>"
+        "<p>Dolor</p>"
+        "</li>"
+        "</ol>"
+        ],
+        "description": "ordered list"
+    },
+    /*CSS*/
+    //Template
+    "": {
+        "prefix": "ms-",
+        "body": [],
+        "description": ""
+    },
+    "img": {
+        "prefix": "ms-img",
+        "body": [
+            "<img src=\"url\" class=\"img-fluid\" alt=\"\">"
+        ],
+        "description": "sample img"
+    },
+    "divider": {
+        "prefix": "ms-hr5",
+        "body": [
+            "<hr class=\"my-5\">"
+        ],
+        "description": "Divider with margins"
+    },
+    "icon": {
+        "prefix": "ms-icon",
+        "body": [
+            "<i class=\"fa fa-photo\"></i>"
+        ],
+        "description": "icon"
+    },
+    "table": {
+        "prefix": "mcs-table",
+        "body": [
+            "<!-- Table  -->"
+            "<table class=\"table\">"
+    
+                "<!-- Table head -->"
+                "<thead>"
+                    "<tr>"
+                        "<th>#</th>"
+                        "<th>Lorem</th>"
+                        "<th>Ipsum</th>"
+                        "<th>Dolor</th>"
+                    "</tr>"
+                "</thead>"
+                "<!-- Table head -->"
+                ""
+                "<!-- Table body -->"
+                "<tbody>"
+                    "<tr>"
+                        "<th scope=\"row\">1</th>"
+                        "<td>Cell 1</td>"
+                        "<td>Cell 2</td>"
+                        "<td>Cell 3</td>"
+                    "</tr>"
+                    "<tr>"
+                    "<th scope=\"row\">2</th>"
+                        "<td>Cell 4</td>"
+                        "<td>Cell 5</td>"
+                        "<td>Cell 6</td>"
+                    "</tr>"
+                    "<tr>"
+                    "<th scope=\"row\">3</th>"
+                        "<td>Cell 7</td>"
+                        "<td>Cell 8</td>"
+                        "<td>Cell 9</td>"
+                    "</tr>"
+                "</tbody>"
+                "<!-- Table body -->"
+            "</table>"
+            "<!-- Table  -->"
+        ],
+        "description": "table"
+    },
+    "animation": {
+        "prefix": "ms-animation",
+        "body": [
+            "wow fadeInUp"
+        ],
+        "description": "animation"
+    },
+    "animation delay": {
+        "prefix": "ms-animation-delay",
+        "body": [
+            "data-wow-delay=\"0.6s\""
+        ],
+        "description": "animation delay"
+    },
+    "image effects": {
+        "prefix": "ms-image-effects",
+        "body": [
+            "<!--Card image-->"
+            "<div class=\"view overlay hm-white-slight\">"
+            "<img src=\"https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg\" class=\"img-fluid\" alt=\"\">"
+            "<a href=\"\">"
+            "<div class=\"mask\"></div>"
+            "</a>"
+            "</div>"
+        ],
+        "description": "image effects"
+    },
+    /*Components*/
+    //Template
+    "": {
+        "prefix": "mc-",
+        "body": [],
+        "description": ""
+    },
+    "button basic": {
+        "prefix": "mc-button",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-primary\">Primary</button>"
+        ],
+        "description": "button basic"
+    },
+    "button link": {
+        "prefix": "mc-button-link",
+        "body": [
+            "<a class=\"btn btn-primary\" href=\"\" role=\"button\">Link</a>"
+        ],
+        "description": "button link"
+    },
+    "input": {
+        "prefix": "mc-input",
+        "body": [
+            "<!--Name-->"
+            "<div class=\"md-form\">"
+                "<input type=\"text\" id=\"inputID\" class=\"form-control\">"
+                "<label for=\"inputID\" class=\"\">Example label</label>"
+            "</div>"
+        ],
+        "description": "Form"
+    },
+    "input prefix": {
+        "prefix": "mc-input-prefix",
+        "body": [
+            "<!--Name-->"
+            "<div class=\"md-form form-sm\">"
+                "<i class=\"fa fa-envelope prefix\"></i>"
+                "<input type=\"text\" id=\"inputID\" class=\"form-control\">"
+                "<label for=\"inputID\" class=\"\">Example label</label>"
+            "</div>"
+        ],
+        "description": "input prefix"
+    },
+    "textarea": {
+        "prefix": "mc-text-area",
+        "body": [
+            "<!--Textarea-->"
+            "<div class=\"md-form\">"
+            "<textarea type=\"text\" id=\"textareaID\" class=\"md-textarea\"></textarea>"
+            "<label for=\"textareaID\">Basic textarea</label>"
+            "</div>"
+        ],
+        "description": "textarea"
+    },
+    "checkbox": {
+        "prefix": "mc-checkbox",
+        "body": [
+            "<div class=\"form-group\">"
+            "<input type=\"checkbox\" id=\"checkboxID\">"
+            "<label for=\"checkboxID\">Classic checkbox</label>"
+            "</div>"
+        ],
+        "description": "checkbox"
+    },
+    "form": {
+        "prefix": "mc-form",
+        "body": [
+            "<!-- Form -->"
+            "<form name=\"\">"
+            "<!-- Heading -->"
+            "<h1 class=\"my-2 h5 text-center\">Heading</h1>"
+            ""
+            "<!-- Inputs -->"
+            "<div class=\"md-form\">"
+            "<input type=\"text\" id=\"inputOne\" class=\"form-control\">"
+            "<label for=\"inputOne\">Your name</label>"
+            "</div>"
+            "<div class=\"md-form\">"
+            "<input type=\"text\" id=\"inputTwo\" class=\"form-control\">"
+            "<label for=\"inputTwo\">Your email</label>"
+            "</div>"
+            ""
+            "<!-- Action button -->"
+            "<div class=\"text-center\">"
+            "<button class=\"btn btn-indigo btn-md\">Button</button>"
+            "</div>"
+            "</form>"
+            "<!-- Form -->"
+        ],
+        "description": "form"
+    },
+    "navbar": {
+        "prefix": "mc-navbar",
+        "body": [
+            "<!--Navbar-->"
+            "<nav class=\"navbar navbar-expand-lg navbar-dark indigo\">"
+            ""
+            "<!-- Navbar brand -->"
+            "<a class=\"navbar-brand\" href=\"\">Brand</a>"
+            ""
+            "<!-- Collapse button -->"
+            "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"><span class=\"navbar-toggler-icon\"></span></button>"
+                    ""
+                    "<!-- Collapsible content -->"
+                    " <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">"
+                    ""
+                    "<!-- Links -->"
+                    "<ul class=\"navbar-nav mr-auto\">"
+                    "<li class=\"nav-item\">"
+                    "<a class=\"nav-link\" href=\"#\">Link</a>"
+                    "</li>"
+                    "</ul>"
+                    "<!-- Links -->"
+                    ""
+                    "<!-- Icons -->"
+                    "<ul class=\"navbar-nav ml-auto nav-flex-icons\">"
+                    "<li class=\"nav-item\">"
+                    "<a class=\"nav-link\" href=\"#\">"
+                    "<i class=\"fa fa-twitter\"></i>"
+                    "</a>"
+                    "</li>"
+                    "<li class=\"nav-item\">"
+                    "<a class=\"nav-link\" href=\"#\">"
+                    "<i class=\"fa fa-google-plus\"></i>"
+                    "</a>"
+                    "</li>"
+                    "</ul>"
+                    "</div>"
+                    "<!-- Collapsible content -->"
+                    ""
+                    "</nav>"
+                    "<!--/.Navbar-->"
+        ],
+        "description": "navbar"
+    },
+    "empty card": {
+        "prefix": "mc-empty-card",
+        "body": [
+            "<!--Card-->"
+            "<div class=\"card\">"
+            ""
+                "<!--Card content-->"
+                "<div class=\"card-body\">"
+                ""
+                "</div>"
+            ""
+            "</div>"
+            "<!--/.Card-->"
+        ],
+        "description": "card body"
+    },
+    "basic card": {
+        "prefix": "mc-card",
+        "body": [
+            "<!--Card-->"
+        "<div class=\"card\">"
+            ""
+            "<!--Card image-->"
+            "<div class=\"view overlay hm-white-slight\">"
+                "<img src=\"https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg\" class=\"img-fluid\" alt=\"\">"
+                "<a href=\"#\">"
+                    "<div class=\"mask\"></div>"
+                "</a>"
+            "</div>"
+            ""
+            "<!--Card content-->"
+            "<div class=\"card-body\">"
+                "<!--Title-->"
+                "<h4 class=\"card-title\">Card title</h4>"
+                "<!--Text-->"
+                "<p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>"
+                "<a href=\"#\" class=\"btn btn-primary\">Button</a>"
+            "</div>"
+            ""
+        "</div>"
+        "<!--/.Card-->"
+        ],
+        "description": "card"
+    },
+    "card cascade": {
+        "prefix": "mc-card-cascade",
+        "body": [
+            "<!--Card-->"
+        "<div class=\"card card-cascade narrower\">"
+            ""
+            "<!--Card image-->"
+            "<div class=\"view overlay hm-white-slight\">"
+                "<img src=\"https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg\" class=\"img-fluid\" alt=\"\">"
+                "<a href=\"#\">"
+                    "<div class=\"mask\"></div>"
+                "</a>"
+            "</div>"
+            ""
+            "<!--Card content-->"
+            "<div class=\"card-body\">"
+                "<!--Title-->"
+                "<h4 class=\"card-title\">Card title</h4>"
+                "<!--Text-->"
+                "<p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>"
+                "<a href=\"#\" class=\"btn btn-primary\">Button</a>"
+            "</div>"
+            ""
+        "</div>"
+        "<!--/.Card-->"
+        ],
+        "description": "card"
+    },
+    "cascading panel": {
+        "prefix": "mc-cascading-panel",
+        "body": [
+            "<!--Card-->"
+            "<div class=\"card card-cascade narrower\">"
+            ""
+                "<!--Card image-->"
+                "<div class=\"view py-3 gradient-card-header info-color\">"
+                    "<h5 class=\"mb-0\">Things to improve</h5>"
+                "</div>"
+                "<!--/Card image-->"
+                ""
+                "<!--Card content-->"
+                "<div class=\"card-body text-center\">"
+
+                    "<div class=\"list-group list-panel\">"
+                    "<a href=\"#\" class=\"list-group-item d-flex justify-content-between dark-grey-text\">Cras justo odio <i class=\"fa fa-wrench ml-auto\"></i></a>"
+                    "<a href=\"#\" class=\"list-group-item d-flex justify-content-between dark-grey-text\">Cras justo odio <i class=\"fa fa-wrench ml-auto\"></i></a>"
+                    "<a href=\"#\" class=\"list-group-item d-flex justify-content-between dark-grey-text\">Cras justo odio <i class=\"fa fa-wrench ml-auto\"></i></a>"
+                    "</div>"
+                ""
+                "</div>"
+                "<!--/.Card content-->"
+            ""
+            "</div>"
+            "<!--/.Card-->"
+        ],
+        "description": "cascading panel"
+    },
+    "list group": {
+        "prefix": "mc-list-group",
+        "body": [
+            "<!-- List group -->"
+            "<div class=\"list-group list-panel\">"
+            "<a href=\"#\" class=\"list-group-item d-flex justify-content-between dark-grey-text\">Cras justo odio<i class=\"fa fa-wrench ml-auto\"></i></a>"
+            "<a href=\"#\" class=\"list-group-item d-flex justify-content-between dark-grey-text\">Cras justo odio<i class=\"fa fa-wrench ml-auto\"></i></a>"
+            "<a href=\"#\" class=\"list-group-item d-flex justify-content-between dark-grey-text\">Cras justo odio<i class=\"fa fa-wrench ml-auto\"></i></a>"
+            "</div>"
+            "<!-- List group -->"
+        ],
+        "description": "list group"
+    },
+    /*JavaScript*/
+    //Template
+    "": {
+        "prefix": "mj-",
+        "body": [],
+        "description": ""
+    },
+    "select": {
+        "prefix": "select",
+        "body": [
+            "<!--Name-->"
+            "<select class=\"mdb-select colorful-select dropdown-primary\">"
+                "    <option value=\"\" disabled selected>Choose</option>"
+                "    <option value=\"1\">Option1</option>"
+                "    <option value=\"2\">Option2</option>"
+                "    <option value=\"3\">Option3</option>"
+            "</select>"
+        ],
+        "description": "Select"
+    },
+    "modal button": {
+        "prefix": "mj-modal-button",
+        "body": [
+            "<!-- Button trigger modal -->"
+            "<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#exampleModal\">"
+            "Launch demo modal"
+            "</button>"
+        ],
+        "description": "modal button"
+    },
+    "modal": {
+        "prefix": "mj-modal",
+        "body": [
+            "<!-- Modal: exampleModal -->"
+            "<div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">"
+            "<div class=\"modal-dialog\" role=\"document\">"
+            ""
+            "<!-- Modal content -->"
+            "<div class=\"modal-content\">"
+            "<!-- Modal header -->"
+            "<div class=\"modal-header\">"
+            "<h5 class=\"modal-title\" id=\"exampleModalLabel\">Modal title</h5>"
+            "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">"
+            "<span aria-hidden="true">&times;</span>"
+            "</button>"
+            "</div>"
+            "<!-- Modal body -->"
+            "<div class=\"modal-body\">"
+            "..."
+            "</div>"
+            "<!-- Modal footer -->"
+            "<div class=\"modal-footer\">"
+            "<button type=\"button\" class=\"btn btn-outline-primary\" data-dismiss=\"modal\">Close</button>"
+            "<button type=\"button\" class=\"btn btn-primary\">Save</button>"
+            "</div>"
+            "</div>"
+            "<!-- Modal content -->"
+            "</div>"
+            "</div>"
+            "<!-- Modal: exampleModal -->"
+        ],
+        "description": "modal"
+    },
+    "modal cascading": {
+        "prefix": "mj-modal-cascading",
+        "body": [
+            "<!-- Modal: exampleModal -->"
+            "<div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\">"
+                "<div class=\"modal-dialog cascading-modal\" role=\"document\">"
+                    ""
+                    "<!--Content-->"
+                    "<div class=\"modal-content\">"
+                        ""
+                        "<!--Header-->"
+                        "<div class=\"modal-header light-blue darken-3 white-text\">"
+                            "<h4 class=\"title\"><i class=\"fa fa-newspaper-o\"></i> Title</h4>"
+                            "<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>"   
+                        "</div>"
+                        ""
+                        "<!--Body-->"
+                        "<div class=\"modal-body mb-0\">"
+                        ""
+                        ""        
+                        ""
+                        "</div>"
+                        ""
+                        "<!--Footer-->"
+                        "<div class=\"modal-footer justify-content-center\">"
+                            "<button type=\"button\" class=\"btn btn-outline-primary\" data-dismiss=\"modal\">Close</button>"
+                            "<button type=\"button\" class=\"btn btn-primary\">Save changes <i class=\"fa fa-check ml-1\"></i></button>"
+                        "</div>"
+                        ""
+                    "</div>"
+                    "<!--/.Content-->"
+                    ""
+                "</div>"
+            "</div>"
+            "<!-- Modal: exampleModal -->"
+        ],
+        "description": "modal cascading"
+    },
+    "modal attributes": {
+        "prefix": "mj-modal-attributes",
+        "body": [
+            "data-toggle=\"modal\" data-target=\"#exampleModal\""
+        ],
+        "description": "modal attributes"
+    },
+    /*Sections*/
+    //Template
+    "": {
+        "prefix": "mb-",
+        "body": [],
+        "description": ""
+    },
+    /*******************
+    MDB.com Snippets
+    ********************/
+    /*Template*/
+    "": {
+        "prefix": "md-",
+        "body": [],
+        "description": ""
+    },
+    "doc-section": {
+        "prefix": "md-doc-section",
+        "body": [
+            "<!--Section: -->"
+            "<section id=\"\">"
+            ""
+            "<!--Title-->"
+            "<h2 class=\"title\"><strong>Basic examples</strong></h2>"
+            ""
+            "<!--Description-->"
+            "<p class=\"description\"></p>"
+            ""
+            "<!--Section: Live preview-->"
+            "<section>"
+            ""
+            ""
+            ""
+            "</section>"
+            "<!--Section: Live preview-->"
+            ""
+            "<!--Section: Code-->"
+            "<section>"
+            "<pre class=\"code-toolbar\">"
+            "<code class=\"language-markup\">"
+            ""
+            "</code>"
+            "</pre>"
+            "</section>"
+            "<!--Section: Code-->"
+            ""
+            "</section>"
+            "<!--/Section: -->"
+        ],
+        "description": "Documentation section"
+    },
+    "subsection": {
+        "prefix": "md-subsection",
+        "body": [
+            "<!--Subheading-->"
+            "<h4 id=\"\" class=\"\"><strong>Heading</strong></h4>"
+            ""
+            "<!--Description-->"
+            "<p class=\"description\"></p>"
+            ""
+            "<!--Section: Live preview-->"
+            "<section>"
+            ""
+            ""
+            ""
+            "</section>"
+            "<!--Section: Live preview-->"
+            ""
+            "<!--Section: Code-->"
+            "<section>"
+            "<pre class=\"code-toolbar\">"
+            "<code class=\"language-markup\">"
+            ""
+            "</code>"
+            "</pre>"
+            "</section>"
+            "<!--Section: Code-->"
+            ""
+        ],
+        "description": "Subsection"
+    },
+    "code": {
+        "prefix": "md-code",
+        "body": [
+            "<pre class=\"code-toolbar\"><code class=\"language-markup\">"
+            ""
+            "</code></pre>"
+        ],
+        "description": "Code prism"
+    },
+    "regular image": {
+        "prefix": "md-regular-image",
+        "body": [
+            "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg"
+        ],
+        "description": "sf image"
+    },
+    "slide image": {
+        "prefix": "md-slide-image",
+        "body": [
+            "https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+        ],
+        "description": "sf image"
+    },
+    "step": {
+        "prefix": "md-step",
+        "body": [
+            "<p class=\"h5 mt-4\">Step </p>"
+        ],
+        "description": "Tutorial step"
+    },
+}
